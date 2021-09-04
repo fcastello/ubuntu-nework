@@ -23,8 +23,9 @@ Container image with basic network and troubleshooting CLI tools based on ubuntu
 - zip
 - make
 - vim
-
-
+- iproute2     
+- iptables 
+- tcpdump
 
 ## Requirements
 - docker

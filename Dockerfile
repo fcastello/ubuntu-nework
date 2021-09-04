@@ -25,5 +25,8 @@ RUN apt-get update \
         zip \
         make \
         vim \
+        iproute2 \
+        iptables \
+        tcpdump \
     && apt-get autoremove \
     && rm -rf /var/lib/apt/lists/*
