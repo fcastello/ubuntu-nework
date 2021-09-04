@@ -36,3 +36,19 @@ Container image with basic network and troubleshooting CLI tools based on ubuntu
 ## For building just run
 make build
 ```
+
+# Usage
+
+To get an interactive container running a bash shel just run 
+```bash
+docker run -it fcastello/ubuntu-network bash
+```
+
+To start a container running in the background 
+```bash
+# Start the container
+docker run -d -t --name ubuntu fcastello/ubuntu-network bash
+
+# Shell into the running container
+docker exec -it ubuntu bash
+```
